@@ -10,7 +10,10 @@ function App() {
     <Router>
     <div className="App">
       <header className="App-header">
+      <nav className="navbar">
 
+
+      </nav>
       </header>
       <body>
 
