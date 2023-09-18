@@ -3,8 +3,8 @@ import { Route } from 'react-router-dom';
 import { BrowserRouter as Router } from "react-router-dom"
 import Logo from './Assets/LOGO.svg';
 import background_top from './Assets/background_top.png';
-
-
+import Erreur from './components/Erreur.js';
+const imageUrl = null;
 
 function App() {
   return (
@@ -22,15 +22,48 @@ function App() {
       <body>
         <section className='top_body_section'>
           <div class='top_body_div'>
-            <img className='img_body' src={background_top} />
+            <img className='img_body' src={imageUrl} />
           </div>
         </section>
-
+        <section className="first_section">
+        <div className='first_div main'>
+          <card className='first_card'>
+            <span className='first_span'>Titre de la location</span>
+          </card>
+        </div>  
+        <div className='second_div main'>
+          <card className='second_card'>
+            <span className='second_span'>Titre de la location</span>
+          </card>
+        </div> 
+        <div className='three_div main'>
+          <card className='three_card'>
+            <span className='three_span'>Titre de la location</span>
+          </card>
+        </div> 
+        <div className='four_div main'>
+          <card className='four_card'>
+            <span className='four_span'>Titre de la location</span>
+          </card>
+        </div> 
+        <div className='five_div main'>
+          <card className='five_card'>
+            <span className='five_span'>Titre de la location</span>
+          </card>
+        </div> 
+        <div className='six_div main'>
+          <card className='six_card'>
+            <span className='six_span'>Titre de la location</span>
+          </card>
+        </div>
+       </section> 
       </body>
       <footer>
 
       </footer>
     </div>
+
+
     </Router>
   );
 }
