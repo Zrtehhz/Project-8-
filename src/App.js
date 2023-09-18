@@ -59,7 +59,9 @@ function App() {
        </section> 
       </body>
       <footer>
-
+        <section className='first_section_footer'>
+        <img className='img_footer' src={imageUrl} />
+        </section> 
       </footer>
     </div>
 

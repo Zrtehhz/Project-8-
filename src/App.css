@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  width: 1240px;
+  margin: 0 auto;
 }
 
 .App-logo {
@@ -66,8 +68,8 @@ overflow: hidden;
 top: 163px;
 left: 100px;
 background-image: url('./Assets/cote_rocheuse.svg');
-background-size: cover; /* cela permet à l'image de couvrir la div entièrement */
-background-repeat: no-repeat; /* pour éviter que l'image se répète */
+background-size: cover; 
+background-repeat: no-repeat; 
 background-position: center; 
 }
 
@@ -82,6 +84,7 @@ background-position: center;
   display: flex;
   bottom: 0;
   margin: 0 auto;
+  color: #fff;
 }
 
 .first_div {
@@ -125,4 +128,35 @@ border-radius: 10px;
   width: 340px;
 height: 340px;
 border-radius: 10px;
+}
+
+
+
+
+
+
+
+/*footer*/
+
+.first_section_footer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin:  0 auto;
+  top: 163px;
+left: 100px;
+overflow: hidden;
+margin-top: 55px;
+
+}
+
+.img_footer {
+  width: 100%;
+  height: 209px;
+  background-image: url('./Assets/footer_img.png');
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-position: center; 
+
 }
