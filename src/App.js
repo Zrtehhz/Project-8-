@@ -4,7 +4,10 @@ import { BrowserRouter as Router } from "react-router-dom"
 import Logo from './Assets/LOGO.svg';
 import background_top from './Assets/background_top.png';
 import Erreur from './components/Erreur.js';
+import Background from './Assets/cote_rocheuse.svg';
 const imageUrl = null;
+
+
 
 function App() {
   return (
@@ -22,7 +25,8 @@ function App() {
       <body>
         <section className='top_body_section'>
           <div class='top_body_div'>
-            <img className='img_body' src={imageUrl} />
+            <span className='span_top_body'>Chez vous, partout et ailleurs</span>
+            <img className='img_body overlay' src={Background} />
           </div>
         </section>
         <section className="first_section">

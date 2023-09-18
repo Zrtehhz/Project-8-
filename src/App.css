@@ -58,19 +58,38 @@ text-decoration: none;
   top: 163px;
 left: 100px;
 overflow: hidden;
+
+}
+
+.span_top_body {
+  color: #fff;
+  font-size: 55px;
+  position: absolute;
+  z-index: 15;
+  text-align: center;
+  top: 170px;
+  left: 0;
+    right: 0;
 }
 
 .img_body {
-  width: 1240px;
+
+  width: 100%;
   height: 223px;
   border-radius: 25px;
   mix-blend-mode: darken;
 top: 163px;
-left: 100px;
-background-image: url('./Assets/cote_rocheuse.svg');
-background-size: cover; 
-background-repeat: no-repeat; 
 background-position: center; 
+}
+
+.overlay {
+  top: 163px;
+  left: 100px;
+  width: 1240px;
+  height: 223px;
+
+  background: black;
+  opacity: 0.5;
 }
 
 /*coté card*/
@@ -78,54 +97,65 @@ background-position: center;
 .first_section {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr ;
-  padding-top: 55px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-top: 15px;
+  border-radius: 15px;
+  background: #F6F6F6;
 }
 .main{
   display: flex;
   bottom: 0;
   margin: 0 auto;
   color: #fff;
+  font-family: Montserrat;
 }
 
 .first_div {
-  background: #FF6060;
-  width: 340px;
+  background-color: #ff6060;
+  background-image: linear-gradient(180deg, #ff6060 85%, #585858 100%);
+    width: 340px;
 height: 340px;
 border-radius: 10px;
   margin-bottom: 35px;
 
 }
 .second_div {
-  background: #FF6060;
-  width: 340px;
+  background-color: #ff6060;
+  background-image: linear-gradient(180deg, #ff6060 85%, #585858 100%);
+    width: 340px;
 height: 340px;
 border-radius: 10px;
   margin-bottom: 35px;
 
 }
 .three_div {
-  background: #FF6060;
-  width: 340px;
+  background-color: #ff6060;
+  background-image: linear-gradient(180deg, #ff6060 85%, #585858 100%);
+    width: 340px;
 height: 340px;
 border-radius: 10px;
   margin-bottom: 35px;
 
 }
 .four_div {
-  background: #FF6060;
-  width: 340px;
+  background-color: #ff6060;
+  background-image: linear-gradient(180deg, #ff6060 85%, #585858 100%);
+    width: 340px;
 height: 340px;
 border-radius: 10px;
 }
 .five_div {
-  background: #FF6060;
-  width: 340px;
+  background-color: #ff6060;
+  background-image: linear-gradient(180deg, #ff6060 85%, #585858 100%);
+    width: 340px;
 height: 340px;
 border-radius: 10px;
 }
 .six_div {
-  background: #FF6060;
-  width: 340px;
+  background-color: #ff6060;
+  background-image: linear-gradient(180deg, #ff6060 85%, #585858 100%);
+    width: 340px;
 height: 340px;
 border-radius: 10px;
 }
