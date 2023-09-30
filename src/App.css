@@ -204,22 +204,33 @@ margin-top: 55px;
   }
 
   .navbar {
-    flex-direction: column;
     align-items: center;
   }
 
+.navbar_link  {
+
+  margin-right: 0;
+}
+
+  .navbar_link .right_section{
+    width: 100%;
+    display: flex;
+  }
+
   .navbar .img_navbar {
-    width: 50%;
+    width: 30%;
     margin-bottom: 10px;
   }
 
   .navbar .right_section {
-    display: none;
+    display: flex;
   }
 
   .top_body_section {
     width: 100%;
     height: 200px;
+    background: transparent;
+
   }
 
   .img_body  {
@@ -227,14 +238,20 @@ margin-top: 55px;
   }
   
 
+.top_body_div {
+  background: rgba(0, 0, 0, 0.1);
+}
+
   .top_body_section .top_body_div {
     width: 100%;
     height: auto; 
-    padding: 20px;
+    padding: 1px;
   }
 
   .top_body_section .span_top_body {
-    font-size: 24px;
+    font-size: 40px;
+    margin-top: 42px;
+    display: block;
   }
 
   .first_section {
