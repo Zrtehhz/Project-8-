@@ -216,9 +216,11 @@ margin-top: 55px;
     width: 100%;
     display: flex;
   }
-
+ul {
+  padding: 0;
+}
   .navbar .img_navbar {
-    width: 30%;
+    width: 20%;
     margin-bottom: 10px;
   }
 
@@ -260,9 +262,15 @@ margin-top: 55px;
   }
 
   .main {
-    display: block;
-    padding-top: 15px;
-    width: 100%;
+    .main {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end; /* Aligns the elements at the bottom */
+      color: #fff;
+      font-family: Montserrat;
+      font-weight: 500;
+      font-size: 18px;
+    }
   }
 
   .first_div, 
