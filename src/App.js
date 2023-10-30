@@ -1,8 +1,8 @@
 import React from 'react';
 import {BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Home from './components/home';
-import About from './components/about';
-import Error from './components/error';
+import Home from './pages/home/home';
+import About from './pages/about/about';
+import Error from './pages/error/error';
 
 function App() {
     return (
