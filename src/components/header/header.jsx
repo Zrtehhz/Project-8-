@@ -1,9 +1,10 @@
 import React from 'react';
-import Logo from './Assets/LOGO.svg';
+import Logo from '../../Assets/logo.png';
+import Navbar from '../../components/navbar/navbar'
 
 function Header() {
     return (
-<header className='header'>
+		<header className='header'>
 			<h1>
 				<img src={Logo} alt="location d'appartements" />
 			</h1>
@@ -12,4 +13,4 @@ function Header() {
     );
   }
 
-export default Header;
+  export default Header;
