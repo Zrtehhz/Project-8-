@@ -1,23 +1,41 @@
+nav {
+  display: flex;
+  gap: 25px;
+  justify-content: flex-end;
+}
+
 .Accueil {
-    display: flex;
-    gap: 50px;
-    color: #FF6060;
-    font-size: clamp(12px, 2.5vw, 24px);
-  }
+  display: flex;
+  color: #FF6060;
+  font-size: clamp(12px, 2.5vw, 24px);
+  text-decoration: none;
+  flex-direction: row;
+}
 
 .APropos {
-    display: flex;
-    gap: 50px;
-    color: #FF6060;
-    font-size: clamp(12px, 2.5vw, 24px);
+  display: flex;
+  color: #FF6060;
+  font-size: clamp(12px, 2.5vw, 24px);
+  text-decoration: none;
+  flex-direction: row;
+  padding-right: 100px;
 }
-  
-  @media screen and (max-width: 700px) {
-    .Accueil {
-      gap: 20px;
-    }
-    .APropos {
-        gap: 20px;
-      }
+
+.Accueil:hover,
+.APropos:hover {
+  color: #FF6060;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 700px) {
+  nav {
+    line-height: 1px;
+    
   }
   
+  .Accueil,
+  .APropos {
+    flex-direction: column;
+    gap: 20px;
+  }
+}

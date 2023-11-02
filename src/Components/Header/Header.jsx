@@ -7,13 +7,16 @@ import './header.css';
 
 function Header() {
     return (
-		<><header className='header'>
+
+		<>	
+
+		<header className='header'>
 			<h1>
 				<img className='Logo' src={Logo} alt="location d'appartements" />
 			</h1>
-		</header><>		
+			
+		</header><Navbar /><>		
 		<>
-			<Navbar />
 			<Banner />
 
 		</></></>

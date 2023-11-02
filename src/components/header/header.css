@@ -2,18 +2,25 @@
   height: 40px;
   max-width: 95%;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); 
-  gap: 10px; 
+  display: flex;
+
 }
 
 .Logo {
+  display: flex;
   width: 200px;
-  height: auto; /* Pour conserver les proportions de l'image */
+  height: auto;
+  padding-left: 35px;
 }
 
 @media screen and (max-width: 700px) {
   .header {
-    grid-template-columns: repeat(2, 1fr); /* Update to a 2-column grid for smaller screens */
+    display: flex;
+  }
+  .Logo {
+    display: flex;
+    width: 100px;
+    height: auto;
+    padding-left: 35px;
   }
 }
