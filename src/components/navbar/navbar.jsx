@@ -1,12 +1,19 @@
-import './navbar.css'
-import { Link } from 'react-router-dom'
+import '../navbar/navbar.css'
+import { Link } from 'react-router-dom';
 
-function Navbar({id, title, cover}) {
+function Navbar() {
+
     return (
-        <Link to={`/house/${id}`} className="gallery_card">
-			<img src={cover} alt={title} />
-			<h3>{title}</h3>	
-		</Link>
+
+      <nav>
+      <Link to="/" className="Accueil">
+        Accueil
+      </Link>
+
+      <Link to="/about" className="APropos">
+        A Propos
+      </Link>
+    </nav>
     );
 }
 

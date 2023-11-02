@@ -1,0 +1,23 @@
+.Accueil {
+    display: flex;
+    gap: 50px;
+    color: #FF6060;
+    font-size: clamp(12px, 2.5vw, 24px);
+  }
+
+.APropos {
+    display: flex;
+    gap: 50px;
+    color: #FF6060;
+    font-size: clamp(12px, 2.5vw, 24px);
+}
+  
+  @media screen and (max-width: 700px) {
+    .Accueil {
+      gap: 20px;
+    }
+    .APropos {
+        gap: 20px;
+      }
+  }
+  

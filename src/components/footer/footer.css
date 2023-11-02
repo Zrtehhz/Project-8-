@@ -1,0 +1,13 @@
+.logo-div {
+    left: 0%;
+    right: 83.04%;
+    top: 0%;
+    bottom: 0%;
+    padding-bottom: 20px;
+    margin-top: 10px;
+  }
+  .logo-div svg {
+    width: 210px;
+    height: 68px;
+    margin-top: 15px;
+  }

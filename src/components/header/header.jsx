@@ -1,15 +1,22 @@
 import React from 'react';
 import Logo from '../../Assets/logo.png';
-import Navbar from '../navbar/navbar'
+import Navbar from '../navbar/Navbar';
+import Banner from '../banner/banner';
+
+import './header.css';
 
 function Header() {
     return (
-		<header className='header'>
+		<><header className='header'>
 			<h1>
-				<img src={Logo} alt="location d'appartements" />
+				<img className='Logo' src={Logo} alt="location d'appartements" />
 			</h1>
+		</header><>		
+		<>
 			<Navbar />
-		</header>
+			<Banner />
+
+		</></></>
     );
   }
 
