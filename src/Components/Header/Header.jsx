@@ -1,9 +1,16 @@
+import React from 'react';
+import Logo from '../../Assets/logo.png';
+import Navbar from '../../components/navbar/navbar'
 
-function header() {
+function Header() {
     return (
-      <header>Header</header>
-    )
+		<header className='header'>
+			<h1>
+				<img src={Logo} alt="location d'appartements" />
+			</h1>
+			<Navbar />
+		</header>
+    );
   }
-  
-  export default header;
-  
+
+  export default Header;
