@@ -7,7 +7,7 @@ function Footer() {
     return (
         <footer>
         <div className="footer-content">
-  <div className="logo-footer">
+     <div className="logo-footer">
     <>
       <svg
         fill="#FFFFFF"
@@ -24,7 +24,7 @@ function Footer() {
         <path d="M106.266 34.4632L84.3497 21.6785L72.1945 14.6376L60.2234 35.5749L60.4076 55.2153L82.1396 68L84.3497 66.703V48.1744L94.1106 30.9428L104.056 36.6866V55.2153L106.266 53.9183V34.4632Z" />
       </svg>
     </>
-  </div>
+      </div>
 
   <div className="text-footer">
     <p className="texte-footer">{texte_Footer}</p>
