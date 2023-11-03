@@ -1,7 +1,6 @@
 import React from 'react';
 import Logo from '../../Assets/logo.png';
 import Navbar from '../navbar/Navbar';
-import Banner from '../banner/banner';
 
 import './header.css';
 
@@ -17,7 +16,6 @@ function Header() {
 			
 		</header><Navbar /><>		
 		<>
-			<Banner />
 
 		</></></>
     );
