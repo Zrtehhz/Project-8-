@@ -7,7 +7,7 @@ function Collapse() {
 		<>	
 
           <div className='Collapse_div'>
-
+                
           </div>
 
 		</>
