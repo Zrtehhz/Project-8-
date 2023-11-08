@@ -1,19 +1,13 @@
 import './carousel.css';
 
-
-
-function Carousel() {
+function Carousel({ logement }) {
     return (
-
-		<>	
-
-          <main className="fiche-logement">
-                <div className="carrousel-logement">
+        <main className="fiche-logement">
+            <div className="carrousel-logement">
                 <Carousel pictures={logement.pictures} />
-          </div>
-
-		</>
+            </div>
+        </main>
     );
-  }
+}
 
-  export default Carousel;
+export default Carousel;

@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+.ErrorPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 45vh;
+    text-align: center;
+    margin-bottom: 25.5vh;
+  }
+  
+  .ErrorPage h1 {
+    width: 597px;
+    height: 263px;
+font-size: 288px;
+font-weight: 700;
+line-height: 411px;
+letter-spacing: 0em;
+text-align: center;
+color: #FF6060;
+font-family: Montserrat;
+
+  }
+  
+  .ErrorPage p {
+    font-size: 2.5em;
+    color: #FF6060;
+    margin-top: 15px;
+  }
+  
+  .ErrorPage a {
+    margin-top: 2em;
+    display: inline-block;
+    padding: 10px 15px;
+    color: #FF6060;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    font-size: 25px;
+    text-decoration: underline;
+    margin-bottom: 115px;
+
+  }
+  
+
+

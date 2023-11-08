@@ -1,17 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './collapse.css';
 
-function Collapse() {
-    return (
+function Collapse({ title, content }) {
+  const [isOpen, setIsOpen] = useState(false);
 
-		<>	
+  return (
+    <div>
+      <button onClick={() => setIsOpen(!isOpen)}>
+        {title}
+      </button>
+      {isOpen && <div>{content}</div>}
+    </div>
+  );
+}
 
-          <div className='Collapse_div'>
-                
-          </div>
-
-		</>
-    );
-  }
-
-  export default Collapse;
+export default Collapse;
