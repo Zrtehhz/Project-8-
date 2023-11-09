@@ -14,7 +14,7 @@ function Home() {
         <div className='container'>
 
           {Logements.map((Logement) => (
-            <Card cover={Logement.cover} title={Logement.title} key={Logement.id} />
+            <Card cover={Logement.cover} title={Logement.title} key={Logement.id} id={Logement.id} />
           ))}
         </div>
           <Footer />
