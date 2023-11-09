@@ -1,9 +1,9 @@
 import React from 'react';
-import Header from '../../components/Header/Header';
-import Card from '../../components/Card/Card';
+import Header from '../../Components/Header/Header';
+import Card from '../../Components/card/Card';
 import Logements from '../../data/data.json';
-import Footer from '../../components/Footer/Footer';
-import Banner from '../../components/banner/banner';
+import Footer from '../../Components/footer/Footer';
+import Banner from '../../Components/banner/Banner';
 
 function Home() {
     return (
