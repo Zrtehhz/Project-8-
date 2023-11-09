@@ -7,19 +7,18 @@ import Banner from '../../Components/banner/Banner';
 
 function Home() {
     return (
-            <><>
+            <>
         <Header />
         <Banner />
 
         <div className='container'>
 
-        {Logements.map((Logement) => (
-          <Card cover={Logement.cover} title={Logement.title} key={Logement.id} />
-        ))}
+          {Logements.map((Logement) => (
+            <Card cover={Logement.cover} title={Logement.title} key={Logement.id} />
+          ))}
         </div>
-      </><>
           <Footer />
-        </></>
+        </>
     );
   }
 
