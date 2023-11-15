@@ -15,10 +15,6 @@
     display: block; 
 }
 
-button {
-    background-color: transparent;
-    width: 5%;
-}
 
 .carousel-chevron {
     position: absolute;
@@ -30,6 +26,8 @@ button {
     justify-content: space-between;
     cursor: pointer;
     z-index: 101; 
+    width: 5%;
+    background-color: transparent;
 }
 
 .prev-button {

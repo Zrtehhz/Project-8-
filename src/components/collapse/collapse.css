@@ -1,11 +1,37 @@
-button {
-    background: #FF6060;
-    color: #fff;
-    width: 80%;
+.openCollapse {
+  width: 80%; /* Ajustez la largeur selon vos besoins */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.divText {
+
+    display: block;
+    width: 78%;
+    margin: 0 auto;
     padding: 15px;
-    border: 0;
-    border-radius: 10px;
-    margin-top: 15px;
-    display: flex;
-    font-size: 25px;
+    background-color: #F6F6F6;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+
+}
+  
+
+.DivMain {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 15px;
+}
+
+footer {
+    margin-top: 90px;
 }

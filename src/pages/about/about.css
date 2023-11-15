@@ -1,0 +1,27 @@
+
+button {
+    background: #FF6060;
+    color: #fff;
+    width: 90%;
+    margin: 0 auto;
+    padding: 15px;
+    border: 0;
+    border-radius: 10px;
+    margin-top: 15px;
+    display: flex;
+    font-size: 25px;
+}
+
+.about_main {
+    margin: 0 auto;
+    margin-top: 25px;
+    display: block;
+justify-content: center;
+color: #FF6060;
+width: 90%;
+}
+
+body {
+    padding-top: 0;
+    margin-top: 0;
+}
