@@ -4,6 +4,7 @@ import Header from '../../components/Header/header';
 import Footer from '../../components/Footer/footer';
 import Carousel from '../../components/carousel/carousel';
 import Logements from '../../data/data.json';
+import RatingStars from '../../components/star/star';
 import './house.css';
 
 function House() {
@@ -28,6 +29,8 @@ function House() {
                                 <img src={logement.host.picture} alt={logement.host.name} />
                                 
                             </div>
+                            <RatingStars rating={3} />
+
                         </h1>
                         <p className="location">{logement.location}</p>
                         <div className="tags">
@@ -35,7 +38,6 @@ function House() {
                                 <span key={index} className="tag">{tag}</span>
                             ))}
                         </div>
-                        <p className="rating"> {logement.rating}</p>
 
                     </div>
                 </>

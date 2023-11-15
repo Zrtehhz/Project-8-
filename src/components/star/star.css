@@ -1,0 +1,13 @@
+.star {
+    width: 35px; 
+    height: auto;
+    display: inline-block;
+    justify-content: end; 
+    margin-right: 3px; 
+  }
+  
+  .rating {
+    display: flex; 
+    align-items: center;
+  }
+  
