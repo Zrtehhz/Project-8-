@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import Header from '../../components/Header/header';
-import Footer from '../../components/Footer/footer';
-import Carousel from '../../components/carousel/carousel';
-import Logements from '../../data/data.json';
-import RatingStars from '../../components/star/star';
-import Desc from '../../components/description/description';
-import Equipment from '../../components/equipement/equipment';
+import Header from '../../Components/Header/header';
+import Footer from '../../Components/footer/footer';
+import Carousel from '../../Components/carousel/carousel';
+import Logements from '../../data/data.json';   
+import RatingStars from '../../Components/star/star';
+import Desc from '../../Components/description/description';
+import Equipment from '../../Components/equipement/equipment';
 import './house.css';
 
 function House() {
