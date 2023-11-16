@@ -1,5 +1,5 @@
 .openCollapse {
-  width: 80%;
+  width: 80%; /* Ajustez la largeur selon vos besoins */
   display: flex;
   justify-content: space-between;
   align-items: center;

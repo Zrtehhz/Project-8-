@@ -1,27 +1,21 @@
 import React, { useState } from 'react';
 import './description.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronUp, faChevronDown } from '@fortawesome/free-solid-svg-icons';
+import { faChevronUp, faChevronDown  } from '@fortawesome/free-solid-svg-icons';
 
-function Desc({ description }) {
+const Desc = ({ description }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className='divEquipment'> 
-      <button className="EquipmentButton" onClick={() => setIsOpen(!isOpen)}>
-      Description
+    <div>
+      <button className="DescButton" onClick={() => setIsOpen(!isOpen)}>
+        {isOpen ? 'description' : 'description' }
         <FontAwesomeIcon className='IconeCollapse' icon={isOpen ? faChevronDown : faChevronUp} />
-      </button>
 
-      {isOpen && (
-        <div className='divText'> 
-          <ul>
-          {description}
-          </ul>
-        </div>
-      )}
+      </button>
+      {isOpen && <p>{description}</p>}
     </div>
   );
-}
+};
 
 export default Desc;

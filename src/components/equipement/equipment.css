@@ -6,10 +6,7 @@
     align-items: center;
 }
 
-
-.divText {
-width: 77%;
-    background-color: #ffffff;
-  }
-  
-  
+button {
+    margin: 100px;
+    
+}

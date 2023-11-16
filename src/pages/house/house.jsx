@@ -40,16 +40,14 @@ function House() {
                                 <span key={index} className="tag">{tag}</span>
                             ))}
                         </div>
-                   
+
                     </div>
                     <div className='collapsehouse'>
                     <div class="collapseItem">
-                    <Equipment equipments={logement.equipments} />
-
+                        <Desc />
                         </div>
                         <div class="collapseItem">
-                        <Desc description={logement.description} />
-
+                        <Equipment />
                         </div>
                     </div>
                 </>
