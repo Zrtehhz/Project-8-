@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './collapse.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronUp } from '@fortawesome/free-solid-svg-icons';
+import { faChevronUp, faChevronDown } from '@fortawesome/free-solid-svg-icons';
 
 function Collapse({ title, content }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,7 +10,7 @@ function Collapse({ title, content }) {
     <div className='DivMain'>
       <button className='openCollapse' onClick={() => setIsOpen(!isOpen)}>
       <span className="buttonText">{title}</span>
-        <FontAwesomeIcon className='IconeCollapse' icon={faChevronUp} /> 
+        <FontAwesomeIcon className='IconeCollapse' icon={isOpen ? faChevronDown : faChevronUp} /> 
 </button>
 
       {isOpen && <span className='divText'>{content}</span>}

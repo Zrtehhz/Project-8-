@@ -1,0 +1,12 @@
+.EquipmentButton {
+    width: 700px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    margin: 100px;
+    
+}
