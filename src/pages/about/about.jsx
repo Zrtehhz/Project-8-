@@ -1,6 +1,6 @@
 import './about.css';
 import React from 'react';
-import Header from '../../Components/Header/header';
+import Header from '../../Components/header/header';
 import BannerAbout from '../../Components/banner-about/banner-about';
 import Footer from '../../Components/footer/footer';
 import Collapse from '../../Components/collapse/collapse';

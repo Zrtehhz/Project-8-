@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import Header from '../../Components/Header/header';
+import Header from '../../Components/header/header';
 import Footer from '../../Components/footer/footer';
 import Carousel from '../../Components/carousel/carousel';
 import Logements from '../../data/data.json';   
@@ -17,6 +17,7 @@ function House() {
         const foundLogement = Logements.find(l => l.id === id);
         setLogement(foundLogement);
     }, [id]);
+
 
     return (
         <>
@@ -40,14 +41,16 @@ function House() {
                                 <span key={index} className="tag">{tag}</span>
                             ))}
                         </div>
-
+                   
                     </div>
                     <div className='collapsehouse'>
                     <div class="collapseItem">
-                        <Desc />
+                    <Equipment equipments={logement.equipments} />
+
                         </div>
                         <div class="collapseItem">
-                        <Equipment />
+                        <Desc description={logement.description} />
+
                         </div>
                     </div>
                 </>
