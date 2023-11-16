@@ -51,9 +51,10 @@
 }
 
 .tags {
+    gap: 30px;
+    width: 30%;
     display: flex;
-    flex-wrap: wrap;
-    gap: 10px; 
+    flex-direction: row;
 }
 
 .tag {
@@ -72,15 +73,35 @@
 }
 
 
-.collapsehouse {
-    display: flex;
-    flex-direction: row; 
-    justify-content: space-between; 
-    width: 100%;
-    margin: 0 auto;
+    .collapsehouse {
+        display: flex;
+        flex-direction: row; 
+        justify-content: space-between; 
+        width: 75%;
+        margin-left: 105px;
+        gap:255px;    
     }
-  
-  .collapseItem {
-    margin: 10px; 
+    
+    .collapseItem {
+        display: flex;
+        margin: 10px; 
+    }
+    
+ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+  .divText {
+    text-decoration: none;
+    list-style: none;
+    background: #F6F6F6;
+    color: #FF6060;
+    width: 77%;
+    margin: 0 auto;
+    padding: 15px;
+    border: 0;
+    border-radius: 10px;
+    display: flex;
+    font-size: 20px;
   }
-  
