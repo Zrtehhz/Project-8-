@@ -4,15 +4,27 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* Autres styles */
 }
 
 .paragraph {
-    width: 550px;
+    width: 78%;
     display: flex;
     flex-direction: column;
-    background-color: grey;
+    background-color: #F6F6F6;
     color: red;
-    list-style-type: none; /* Enlève les puces de liste */
+    list-style-type: none;
     padding: 15px;
-  }
-  
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin: 0 auto;
+    /* Autres styles */
+}
+
+/* Requête média pour les écrans plus petits, par exemple, moins de 768px */
+@media (max-width: 768px) {
+    .EquipmentButton, .paragraph {
+        width: 100%; /* Prend la pleine largeur de l'écran */
+        margin-left: 0; /* Supprime la marge gauche spécifique */
+    }
+}

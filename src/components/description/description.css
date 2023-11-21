@@ -6,16 +6,26 @@
     align-items: center;
 }
 
-
-
-
-
 .paragraph2 {
-    width: 615px;
+    width: 78%;
     display: flex;
     flex-direction: column;
-    background-color: grey;
+    background-color: #F6F6F6;
     color: red;
     list-style-type: none;
     padding: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-top: 0;
+    margin-left: 15px;
+    margin: 0 auto;
+}
+
+
+/* Requête média pour les écrans plus petits, par exemple, moins de 768px */
+@media (max-width: 768px) {
+    .DescButton, .paragraph2 {
+        width: 100%; /* Prend la pleine largeur de l'écran */
+        margin-left: 0; /* Supprime la marge gauche spécifique */
+    }
 }

@@ -74,11 +74,11 @@
 
 .collapsehouse {
     display: flex;
-    flex-direction: row; 
-    justify-content: space-between; 
-    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
     margin: 0 auto;
-    }
+}
   
   .collapseItem {
     margin: 10px; 
