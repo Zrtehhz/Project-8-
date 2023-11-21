@@ -17,26 +17,32 @@
 }
 
 
-.carousel-chevron {
-    position: absolute;
-    top: 25%;
-    transform: translateY(-50%);
-    color: white; 
-    font-size: 100px; 
-    display: flex;
-    justify-content: space-between;
-    cursor: pointer;
-    z-index: 101; 
-    width: 5%;
-    background-color: transparent;
-}
+
 
 .prev-button {
-    left: 10px;
+    left: 0;
 }
 
 .next-button {
-    right: 10px;
+    right: 25px;
     display: flex;
     justify-content: end;
+}
+
+
+
+
+
+.carousel-chevron {
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 100px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    z-index: 101;
+    width: 5%;
+    background-color: transparent;
 }

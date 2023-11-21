@@ -13,7 +13,7 @@ const Equipment = ({ equipments }) => {
         <FontAwesomeIcon className='IconeCollapse' icon={isOpen ? faChevronDown : faChevronUp}/> 
 
       </button>
-      {isOpen && <p>{equipments}</p>}
+      {isOpen && <p class="paragraph">{equipments}</p>}
     </div>
   );
 };

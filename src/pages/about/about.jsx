@@ -1,9 +1,9 @@
 import './about.css';
 import React from 'react';
-import Header from '../../Components/header/Header';
-import BannerAbout from '../../Components/banner-about/Banner-about';
-import Footer from '../../Components/footer/Footer';
-import Collapse from '../../Components/collapse/Collapse';
+import Header from '../../components/Header/Header';
+import BannerAbout from '../../components/Banner-about/Banner-about';
+import Footer from '../../components/Footer/Footer';
+import Collapse from '../../components/Collapse/Collapse';
 
 const aboutDatas = [
   {

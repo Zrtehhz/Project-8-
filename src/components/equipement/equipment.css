@@ -6,7 +6,13 @@
     align-items: center;
 }
 
-button {
-    margin: 100px;
-    
-}
+.paragraph {
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    color: red;
+    list-style-type: none; /* Enlève les puces de liste */
+    padding: 15px;
+  }
+  
