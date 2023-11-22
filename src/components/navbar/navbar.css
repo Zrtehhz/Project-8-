@@ -37,5 +37,7 @@ nav {
   .APropos {
     flex-direction: column;
     gap: 20px;
+    font-size: clamp(17px, 2.5vw, 24px);
+
   }
 }

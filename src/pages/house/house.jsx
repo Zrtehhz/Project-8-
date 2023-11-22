@@ -49,7 +49,8 @@ function House() {
             content={logement.equipments}
         />
     </div>
-    <div class="collapseItem">
+    
+    <div class="collapseItemm">
         <Collapse 
             title="Description" 
             content={logement.description}

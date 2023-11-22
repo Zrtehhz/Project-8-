@@ -76,13 +76,69 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
 }
   
   .collapseItem {
+    display: flex;
+    width: 50%;
+        color: #FF6060;
     margin: 10px; 
   }
   
 
+    
+  .collapseItemm {
+    width: 50%;
+    color: #FF6060;
+    margin: 10px; 
+  }
   
+
+
+  @media (max-width: 768px) {
+    .collapsehouse {
+        flex-direction: column;
+    }
+
+    .collapseItem, .collapseItemm {
+        width: 100%;
+    }
+
+    .next-button {
+        right: 62px;
+    }
+    .details-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .house-title {
+        /* Keep the original order */
+        order: 1;
+    }
+
+    .tags {
+        /* This should come before host-info and rating */
+        order: 2;
+        margin-bottom: 10px; /* Space below tags */
+    }
+
+    .host-info {
+        /* This should come after tags */
+        order: 3;
+        position: static;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .rating {
+        /* This should come last */
+        order: 4;
+        position: static;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+}
