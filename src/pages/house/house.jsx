@@ -6,7 +6,7 @@ import Carousel from '../../components/Carousel/Carousel';
 import Logements from '../../data/data.json';   
 import RatingStars from '../../components/Star/Star';
 import Desc from '../../components/Description/Description';
-import Equipment from '../../components/Equipement/Equipment';
+import Collapse from '../../components/Collapse/Collapse';
 import './house.css';
 
 function House() {
@@ -44,15 +44,20 @@ function House() {
                    
                     </div>
                     <div className='collapsehouse'>
-                    <div class="collapseItem">
-                    <Equipment equipments={logement.equipments} />
+    <div class="collapseItem">
+        <Collapse 
+            title="Équipements" 
+            content={<Equipment equipments={logement.equipments} />}
+        />
+    </div>
+    <div class="collapseItem">
+        <Collapse 
+            title="Description" 
+            content={<Desc description={logement.description} />}
+        />
+    </div>
+</div>
 
-                        </div>
-                        <div class="collapseItem">
-                        <Desc description={logement.description} />
-
-                        </div>
-                    </div>
                 </>
             )}
             <Footer />
