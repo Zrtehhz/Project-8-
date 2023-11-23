@@ -18,7 +18,7 @@ nav {
   font-size: clamp(12px, 2.5vw, 24px);
   text-decoration: none;
   flex-direction: row;
-  padding-right: 100px;
+  padding-right: 108px;
 }
 
 .Accueil:hover,
@@ -36,8 +36,9 @@ nav {
   .Accueil,
   .APropos {
     flex-direction: column;
-    gap: 20px;
-    font-size: clamp(17px, 2.5vw, 24px);
+    gap: 18px;
+    font-size: 22px;
+    padding-right: 18px;
 
   }
 }

@@ -25,7 +25,10 @@ function Carousel({ logement }) {
     return (
         <main className="fiche-logement">
             <div className="carrousel-logement">
-                <img src={logement.pictures[currentImageIndex]} alt={`Image ${currentImageIndex}`} />
+                <img src={logement.pictures[currentImageIndex]} alt={`Image ${currentImageIndex + 1}`} />
+                <div className="image-counter">
+                    {`${currentImageIndex + 1}/${logement.pictures.length}`}
+                </div>
                 <button className="carousel-chevron prev-button" onClick={prevImage}>
                     <FontAwesomeIcon icon={faChevronLeft} />
                 </button>

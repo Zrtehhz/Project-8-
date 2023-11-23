@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
 import Carousel from '../../components/Carousel/Carousel';
-import Logements from '../../data/data.json';   
+import Logements from '../../data/data.json';
 import RatingStars from '../../components/Star/Star';
 import Collapse from '../../components/Collapse/Collapse';
 import './house.css';
@@ -25,38 +25,37 @@ function House() {
                 <>
                     <Carousel logement={logement} />
                     <div className="house-details">
-                        <h1 className="house-title">{logement.title}
+                        <h1 className="house-title">{logement.title}</h1>
+                        <div className="contain">
                             <div className="host-info">
                                 <span>{logement.host.name}</span>
                                 <img src={logement.host.picture} alt={logement.host.name} />
-                                
+
                             </div>
                             <RatingStars rating={3} />
-
-                        </h1>
+                            </div>
                         <p className="location">{logement.location}</p>
                         <div className="tags">
                             {logement.tags.map((tag, index) => (
                                 <span key={index} className="tag">{tag}</span>
                             ))}
                         </div>
-                   
+
                     </div>
                     <div className='collapsehouse'>
-    <div class="collapseItem">
-        <Collapse 
-            title="Équipements" 
-            content={logement.equipments}
-        />
-    </div>
-    
-    <div class="collapseItemm">
-        <Collapse 
-            title="Description" 
-            content={logement.description}
-        />
-    </div>
-</div>
+                    <div class="collapseItem">
+                            <Collapse
+                                title="Équipements"
+                                content={logement.equipments}
+                            />
+                            </div>
+                        <div class="collapseItemm">
+                            <Collapse
+                                title="Description"
+                                content={logement.description}
+                            />
+                        </div>
+                    </div>
 
                 </>
             )}

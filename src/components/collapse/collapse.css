@@ -1,5 +1,5 @@
 .openCollapse {
-  width: 80%; /* Ajustez la largeur selon vos besoins */
+  width: 95%; 
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -12,11 +12,11 @@
   width: 100%;
 }
 
-.divText {
+.paragrapheClass {
 
     display: block;
-    width: 75%;
-    margin: 0 auto;
+    width: 63%;
+        margin: 0 auto;
     padding: 15px;
     background-color: #F6F6F6;
     border-bottom-right-radius: 15px;
@@ -25,12 +25,34 @@
 }
   
 
-.DivMain {
+.divMain {
     display: block;
     margin: 0 auto;
     width: 100%;
 }
+.listeClass {
+  display: block;
+  width: 63%;
+    margin: 0 auto;
+  padding: 15px;
+  background-color: #F6F6F6;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+
+
 
 footer {
     margin-top: 90px;
+}
+
+@media (max-width: 768px) {
+  
+  .divText {
+
+  width: 60%;
+
+}
+  
 }
