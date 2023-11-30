@@ -15,9 +15,10 @@
 .paragrapheClass {
 
     display: block;
-    width: 63%;
-        margin: 0 auto;
-    padding: 15px;
+    width: 89%;
+    margin: 1px;
+    margin-left: 12px;
+    padding: 14px;
     background-color: #F6F6F6;
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
@@ -32,9 +33,9 @@
 }
 .listeClass {
   display: block;
-  width: 63%;
-    margin: 0 auto;
-  padding: 15px;
+  width: 90%;
+  margin-left: 10px;
+  padding: 10px;
   background-color: #F6F6F6;
   border-bottom-right-radius: 15px;
   border-bottom-left-radius: 15px;
