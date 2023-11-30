@@ -10,10 +10,10 @@ function Collapse({ title, content }) {
     if (Array.isArray(content)) {
       return (
         <div className="listeClass">
-          {content.map((item, index) => (
-            <React.Fragment key={index}>
-              {item}{index < content.length - 1 && <br />}
-            </React.Fragment>
+          {content.map((item) => (
+            <>
+             <p>{item}</p> 
+            </>
           ))}
         </div>
       );

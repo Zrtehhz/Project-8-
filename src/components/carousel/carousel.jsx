@@ -6,7 +6,7 @@ import { faChevronLeft, faChevronRight } from '@fortawesome/free-solid-svg-icons
 function Carousel({ logement }) {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
-    if (!logement || !logement.pictures || logement.pictures.length === 0) {
+    if (!logement || !logement.pictures || !logement.pictures.length) {
         return <div>Chargement...</div>;
     }
 

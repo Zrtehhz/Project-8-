@@ -13,7 +13,7 @@ function House() {
     const [logement, setLogement] = useState(null);
 
     useEffect(() => {
-        const foundLogement = Logements.find(l => l.id === id);
+        const foundLogement = Logements.find(logement => logement.id === id);
         setLogement(foundLogement);
     }, [id]);
 
