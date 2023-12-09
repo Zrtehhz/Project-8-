@@ -13,16 +13,15 @@
 }
 
 .paragrapheClass {
+  display: block;
+  margin: 1px;
+  margin-left: 6px;
+  margin-right: 60px;
 
-    display: block;
-    width: 89%;
-    margin: 1px;
-    margin-left: 12px;
-    padding: 14px;
-    background-color: #F6F6F6;
-    border-bottom-right-radius: 15px;
-    border-bottom-left-radius: 15px;
-
+  padding: 14px;
+  background-color: #F6F6F6;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
   
 
@@ -34,22 +33,31 @@
 .listeClass {
   display: block;
     /* width: 84%; */
-    margin-left: 10px;
+    margin-left: 25px;
     margin-right: 55px;
   padding: 10px;
   background-color: #F6F6F6;
   border-bottom-right-radius: 15px;
   border-bottom-left-radius: 15px;
 }
-
-
-
-
 footer {
     margin-top: 90px;
 }
 
-@media (max-width: 768px) {
+
+
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .paragrapheClass {
+    width: 83%;
+    margin-left: 15px;
+    margin-right: 55px;
+  }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
   
   .divText {
 
@@ -58,46 +66,26 @@ footer {
 }
 
 .listeClass {
-    /* width: 84%; */
     margin-left: 10px;
     margin-right: 55px;
 }
 .paragrapheClass {
-  min-width: 50%;
-   width: 84%; 
+  width: none;
   margin-left: 10px;
   margin-right: 55px;
 }
   
 }
 
-@media (max-width: 320px) {
+@media (max-width: 767px) {
   .listeClass {
     min-width: 50%;
-    width: 84%;
     margin-left: 10px;
     margin-right: 55px;
   }
   .paragrapheClass {
-    min-width: 50%;
-     width: 84%;
-    margin-left: 10px;
-  }
-}
-
-
-@media (max-width: 1440px) {
-  .listeClass {
-    min-width: 50%;
-     width: 84%;
-    margin-left: 10px;
+    margin-left: 25px;
     margin-right: 55px;
-  }
 
-  .paragrapheClass {
-    min-width: 50%;
-    width: 84%; 
-    margin-left: 10px;
-    margin-right: 55px;
   }
 }
