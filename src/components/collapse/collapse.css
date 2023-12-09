@@ -17,7 +17,7 @@
   margin: 1px;
   margin-left: 6px;
   margin-right: 60px;
-
+    width: 90%;
   padding: 14px;
   background-color: #F6F6F6;
   border-bottom-right-radius: 15px;
@@ -70,7 +70,7 @@ footer {
     margin-right: 55px;
 }
 .paragrapheClass {
-  width: none;
+  width: 81%;
   margin-left: 10px;
   margin-right: 55px;
 }
@@ -86,6 +86,7 @@ footer {
   .paragrapheClass {
     margin-left: 25px;
     margin-right: 55px;
+    width: 70%;
 
   }
 }
