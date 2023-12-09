@@ -33,8 +33,9 @@
 }
 .listeClass {
   display: block;
-  width: 90%;
-  margin-left: 10px;
+    /* width: 84%; */
+    margin-left: 10px;
+    margin-right: 55px;
   padding: 10px;
   background-color: #F6F6F6;
   border-bottom-right-radius: 15px;
@@ -55,5 +56,48 @@ footer {
   width: 60%;
 
 }
+
+.listeClass {
+    /* width: 84%; */
+    margin-left: 10px;
+    margin-right: 55px;
+}
+.paragrapheClass {
+  min-width: 50%;
+   width: 84%; 
+  margin-left: 10px;
+  margin-right: 55px;
+}
   
+}
+
+@media (max-width: 320px) {
+  .listeClass {
+    min-width: 50%;
+    width: 84%;
+    margin-left: 10px;
+    margin-right: 55px;
+  }
+  .paragrapheClass {
+    min-width: 50%;
+     width: 84%;
+    margin-left: 10px;
+  }
+}
+
+
+@media (max-width: 1440px) {
+  .listeClass {
+    min-width: 50%;
+     width: 84%;
+    margin-left: 10px;
+    margin-right: 55px;
+  }
+
+  .paragrapheClass {
+    min-width: 50%;
+    width: 84%; 
+    margin-left: 10px;
+    margin-right: 55px;
+  }
 }
