@@ -14,14 +14,10 @@
 
 .paragrapheClass {
   display: block;
-  margin: 1px;
-  margin-left: 6px;
-  margin-right: 60px;
-    width: 90%;
+  margin-top: 0px;
+    width:  91.71%;
   padding: 14px;
   background-color: #F6F6F6;
-  border-bottom-right-radius: 15px;
-  border-bottom-left-radius: 15px;
 }
   
 
@@ -32,9 +28,8 @@
 }
 .listeClass {
   display: block;
-    /* width: 84%; */
-    margin-left: 25px;
-    margin-right: 55px;
+     width: 93%; 
+
   padding: 10px;
   background-color: #F6F6F6;
   border-bottom-right-radius: 15px;
@@ -49,9 +44,12 @@ footer {
 
 @media (min-width: 1024px) and (max-width: 1439px) {
   .paragrapheClass {
-    width: 83%;
-    margin-left: 15px;
-    margin-right: 55px;
+    width: 89%;
+
+  }
+
+  .listeClass {
+    width: 91%;
   }
 }
 
@@ -66,27 +64,25 @@ footer {
 }
 
 .listeClass {
-    margin-left: 10px;
-    margin-right: 55px;
+  width: 91%;
+  /* margin-left: 10px; */
+  /* margin-right: 55px; */
 }
 .paragrapheClass {
-  width: 81%;
-  margin-left: 10px;
-  margin-right: 55px;
+  width: 88%;
+
 }
   
 }
 
 @media (max-width: 767px) {
   .listeClass {
-    min-width: 50%;
-    margin-left: 10px;
-    margin-right: 55px;
+    width: 91%;
+    margin-left: 0px;
   }
   .paragrapheClass {
-    margin-left: 25px;
-    margin-right: 55px;
-    width: 70%;
+
+    width: 90%;
 
   }
 }
