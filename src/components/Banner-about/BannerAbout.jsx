@@ -1,5 +1,5 @@
 import React from 'react';
-import './banner-about.css';
+import './BannerAbout.css';
 import about_cover from '../../Assets/about_cover.png';
 
 function BannerAbout() {

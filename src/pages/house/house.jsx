@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import Header from '../../Components/Header/Header';
+import Header from '../../components/Header/Header';
 import Footer from '../../Components/Footer/Footer';
 import Carousel from '../../Components/Carousel/Carousel';
 import Logements from '../../data/data.json';
