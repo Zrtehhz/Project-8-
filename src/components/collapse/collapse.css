@@ -51,6 +51,7 @@ footer {
   .listeClass {
     width: 91%;
   }
+  
 }
 
 
@@ -72,17 +73,19 @@ footer {
   width: 88%;
 
 }
+
   
 }
 
 @media (max-width: 767px) {
   .listeClass {
-    width: 91%;
+    width: 90%;
     margin-left: 0px;
   }
   .paragrapheClass {
 
-    width: 90%;
+    width: 87%;
 
   }
+
 }
