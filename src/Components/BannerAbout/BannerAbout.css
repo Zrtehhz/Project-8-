@@ -22,3 +22,17 @@
     }
 
   }
+
+@media screen  and (max-width: 400px) {
+  .bannerAbout {
+    height: 80px;
+  }
+
+  .about_main {
+    margin-top: 46px;
+  }
+  footer {
+    height: 15px;
+padding-top: 39px;
+  }
+}

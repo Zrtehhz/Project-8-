@@ -3,11 +3,15 @@ import './collapse.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronUp, faChevronDown } from '@fortawesome/free-solid-svg-icons';
 
+// Définition du composant Collapse avec les props title et content
 function Collapse({ title, content }) {
+  // State pour gérer l'état ouvert/fermé du contenu
   const [isOpen, setIsOpen] = useState(false);
 
+  // Fonction pour rendre le contenu, gère les arrays et le contenu simple
   const renderContent = () => {
     if (Array.isArray(content)) {
+      // Si le contenu est un tableau, il est rendu comme une liste
       return (
         <div className="listeClass">
           {content.map((item) => (
@@ -25,7 +29,7 @@ function Collapse({ title, content }) {
   return (
     <div className='DivMain'>
       <button className='openCollapse' onClick={() => setIsOpen(!isOpen)}>
-        <span className="buttonText">{title}</span>
+        <span className="buttonText">{title}</span> 
         <FontAwesomeIcon className='IconeCollapse' icon={isOpen ? faChevronDown : faChevronUp} /> 
       </button>
 
@@ -34,4 +38,4 @@ function Collapse({ title, content }) {
   );
 }
 
-export default Collapse;
+export default Collapse; 

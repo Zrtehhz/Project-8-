@@ -1,5 +1,5 @@
 .banner_div{
-    width: 95%;
+    width: 92%;
     height: 17rem;
     margin: 50px; 
     position: relative; 
@@ -26,20 +26,43 @@
     font-weight: 500;
     line-height: 120px;
 } 
-@media screen and (max-width:599px) {
+@media screen and (min-width: 440px) and (max-width:868px) {
     .banner_text{
-        margin: 1.5rem 0 0 1rem;
-        font-size: 35px;
-        width: 80%;
+        margin: 2.5rem 0 0 2rem;
+        font-size: 32px;
+        width: 33%;
+        /* margin-left: 0; */
         text-align: left;
-        line-height: 35px;
+        line-height: 47px;
+    }
+    .banner_div{
+        width: 94%;
+        height: 11rem;
+        margin: 21px;
+        position: relative;
+        overflow: hidden;
+        border-radius: 25px;
+        margin-top: 65px;
+
+    }
+    
+} 
+@media screen and (max-width:430px) {
+    .banner_text{
+        margin: 2.5rem 0 0 2rem;
+        font-size: 25px;
+        width: 62%;
+        text-align: left;
+        line-height: 25px;
     }
     .banner_div{
         width: 95%;
-        height: 7rem;
-        margin: 12px;
-        border-radius: 10px;
-        margin-top: 30px;
+        height: 8rem;
+        margin: 10px; 
+        position: relative; 
+        overflow: hidden;
+        border-radius: 25px;
+        margin-top: 65px;
 
     }
     

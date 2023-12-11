@@ -28,6 +28,7 @@
     font-weight: 300;
     color: #FF6060;
     font-size: 25px;
+    line-height: 30px;
     font-weight: 500; 
 }
 
@@ -103,7 +104,7 @@
 }
 
 
-  @media (max-width: 768px) {
+  @media (max-width: 868px) {
     .collapsehouse {
         flex-direction: column;
         width: 100%;
@@ -150,6 +151,7 @@
         position: static;
         margin-top: 10px;
         width: 44%;
+        line-height: 30px;
     }
 
     .host-info span {
@@ -159,10 +161,11 @@
     }
     
     .rating {
-        order: 4;
-        position: static;
-        margin-top: 10px;
-        width: 40%;
+        position: absolute;
+        top: 783px;
+        margin-left: 55px;
+        display: flex;
+        left: 0;
     }
     
     .contain { 
@@ -177,4 +180,19 @@
         gap: 5px; 
     }
     
+}
+@media screen and (max-width: 430px) {
+    .rating {
+        top: 747px;
+        margin-left: 26px;
+    
+    }
+    .container {
+        display: block;
+        width: 342px;
+        margin: 0;
+        padding: 23px;
+    }
+
+
 }
