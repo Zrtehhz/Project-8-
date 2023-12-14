@@ -12,7 +12,7 @@ button {
 }
 
 .about_main {
-    margin: 0 auto;
+    margin: 95px;
     margin-top: 25px;
     display: block;
 justify-content: center;
@@ -23,4 +23,18 @@ width: 90%;
 body {
     padding-top: 0;
     margin-top: 0;
+}
+
+
+@media screen and (max-width: 450px) {
+    .about_main {
+        margin: 0 auto;
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+    .about_main {
+        margin: 55px;
+    }
 }
