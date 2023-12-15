@@ -30,7 +30,7 @@ function Collapse({ title, content }) {
     <div className='DivMain'>
       <button className='openCollapse' onClick={() => setIsOpen(!isOpen)}>
         <span className="buttonText">{title}</span> 
-        <FontAwesomeIcon className='IconeCollapse' icon={isOpen ? faChevronDown : faChevronUp} /> 
+        <FontAwesomeIcon className={`IconeCollapse ${isOpen ? 'rotate' : ''}`} icon={isOpen ? faChevronDown : faChevronUp} />
       </button>
 
       {isOpen && renderContent()}
