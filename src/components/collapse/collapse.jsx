@@ -3,7 +3,7 @@ import './collapse.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronUp, faChevronDown } from '@fortawesome/free-solid-svg-icons';
 
-// Définition du composant Collapse avec les props title et content
+//  Props title et content
 function Collapse({ title, content }) {
   // State pour gérer l'état ouvert/fermé du contenu
   const [isOpen, setIsOpen] = useState(false);
