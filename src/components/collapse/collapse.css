@@ -40,6 +40,15 @@ footer {
 }
 
 
+.IconeCollapse {
+  transform: rotate(0deg); 
+  transition: transform 0.3s ease;
+}
+
+.IconeCollapse.rotate {
+  transform: rotate(180deg); 
+}
+
 
 
 @media (min-width: 1024px) and (max-width: 1439px) {

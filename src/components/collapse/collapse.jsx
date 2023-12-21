@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import './collapse.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronUp, faChevronDown } from '@fortawesome/free-solid-svg-icons';
+import {  faChevronDown } from '@fortawesome/free-solid-svg-icons';
 
-// Définition du composant Collapse avec les props title et content
+//  Props title et content
 function Collapse({ title, content }) {
   // State pour gérer l'état ouvert/fermé du contenu
   const [isOpen, setIsOpen] = useState(false);
@@ -30,12 +30,15 @@ function Collapse({ title, content }) {
     <div className='DivMain'>
       <button className='openCollapse' onClick={() => setIsOpen(!isOpen)}>
         <span className="buttonText">{title}</span> 
-        <FontAwesomeIcon className='IconeCollapse' icon={isOpen ? faChevronDown : faChevronUp} /> 
-      </button>
+        <FontAwesomeIcon className={`IconeCollapse ${isOpen ? 'rotate' : ''}`} 
+                icon={faChevronDown} />
 
+      </button>
+  
       {isOpen && renderContent()}
     </div>
   );
+  
 }
 
 export default Collapse; 
