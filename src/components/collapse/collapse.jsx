@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './collapse.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronUp, faChevronDown } from '@fortawesome/free-solid-svg-icons';
+import {  faChevronDown } from '@fortawesome/free-solid-svg-icons';
 
 //  Props title et content
 function Collapse({ title, content }) {
@@ -30,12 +30,15 @@ function Collapse({ title, content }) {
     <div className='DivMain'>
       <button className='openCollapse' onClick={() => setIsOpen(!isOpen)}>
         <span className="buttonText">{title}</span> 
-        <FontAwesomeIcon className={`IconeCollapse ${isOpen ? 'rotate' : ''}`} icon={isOpen ? faChevronDown : faChevronUp} />
-      </button>
+        <FontAwesomeIcon className={`IconeCollapse ${isOpen ? 'rotate' : ''}`} 
+                icon={faChevronDown} />
 
+      </button>
+  
       {isOpen && renderContent()}
     </div>
   );
+  
 }
 
 export default Collapse; 

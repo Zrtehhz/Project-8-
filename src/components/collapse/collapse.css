@@ -40,19 +40,14 @@ footer {
 }
 
 
-
-.collapse-content {
-  transition: max-height 0.3s ease-out, opacity 0.3s ease;
-  max-height: 0;
-  opacity: 0;
-  overflow: hidden;
+.IconeCollapse {
+  transform: rotate(0deg); 
+  transition: transform 0.3s ease;
 }
 
-.collapse-content.open {
-  opacity: 1;
-  max-height: 500px; /* Adjust this value based on your content's size */
+.IconeCollapse.rotate {
+  transform: rotate(180deg); 
 }
-
 
 
 
